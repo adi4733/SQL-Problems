@@ -1,0 +1,1 @@
+Select case when (low_fats = 'Y') and (recyclable = 'Y') then Product_id  else not null end  as Product_id from Products
