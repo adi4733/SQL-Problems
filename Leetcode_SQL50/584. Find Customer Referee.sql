@@ -1,0 +1,1 @@
+Select name from customer where id not in (Select id from customer where referee_id = 2)
